@@ -1,11 +1,11 @@
 ### Usage
 
 > c=rbind(c(1, -1/4), c(-1/4, 1))  
+> m <- makeCacheMatrix(c)
+> cacheSolve(m)
 
-> cacheSolve(makeCacheMatrix(c))
-          [,1]      [,2]
-[1,] 1.0666667 0.2666667
-[2,] 0.2666667 1.0666667
+> [1,] 1.0666667 0.2666667
+> [2,] 0.2666667 1.0666667
 
 ### Readme
 
